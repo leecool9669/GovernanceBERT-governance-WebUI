@@ -40,7 +40,7 @@ def build_ui():
 
         with gr.Tabs():
             with gr.Tab("文本分类"):
-                gr.Markdown("在下方输入治理相关文本（如公司治理、董事会、ESG 揭露等），模型将输出分类标签与凿誉度。")
+                gr.Markdown("在下方输入治理相关文本（如公司治理、董事会、ESG 披露等），模型将输出分类标签与置信度。")
                 inp = gr.Textbox(
                     label="输入文本",
                     placeholder="例如：The board of directors approved the new governance policy...",
